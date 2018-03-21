@@ -1,0 +1,29 @@
+Installation Instructions
+---------------------------
+
+1)Extract Managementofhotels.rar archieve.
+2)Copy the exracted folder to Tomcat webapps directory.
+3)Dump the database to Mysql from the database dump file at ( Managementofhotels/database_installer/ezest.sql )
+4)The default database configuration for the application is
+
+   url      =  jdbc:mysql://localhost:3306/ezest
+mysql   username =  root
+mysql   password =  admin
+
+   you can change these properties as per your database by editing the 
+   " Managementofhotels/WEB-INF/classes/com/eResorts/database.properties " file.
+ 5)Once database is dumped,point your web browser to http://localhost:8080/Managementofhotels.
+ 6) Now,login with your default credentials.
+
+      UserId   : admin
+      Password : admin
+
+      If your able to login successfully,then your installation is successfull.
+
+
+Note:
+-----
+
+Supported Browsers : Only Internet Explorer (IE)
+Mysql Version      : 5.0
+Apache Tomcat      : 6.0  
